@@ -132,4 +132,11 @@ $pdf->Image($base64Image, 148, 225, 25, 0, 'PNG');
 
 $outputFile = __DIR__ . '/output.pdf';
 $pdf->Output($outputFile,'F');
+echo "<script>window.open('show.php', '_blank')</script>";
+
+
+
+
+
+
 ?>
