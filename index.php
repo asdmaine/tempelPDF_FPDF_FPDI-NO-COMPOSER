@@ -1,6 +1,6 @@
 <?php
-require 'third_party/fpdf.php';
-require 'third_party/src/autoload.php';
+require 'third_party/fpdf/fpdf.php';
+require 'third_party/fpdf/src/autoload.php';
 use setasign\Fpdi\Fpdi;
 
 
